@@ -55,9 +55,8 @@ h3 {
     padding-bottom: 20px;
 }
 
-a {
-    display: inline-block;
-    padding: 40px 15px;
+p a {
+    padding: 25px;
     text-decoration: none;
     color: black;
 }
