@@ -57,15 +57,9 @@ h3 {
 
 p {
     padding: 25px;
-    text-decoration: none;
-    color: black;
+    cursor: pointer;
 }
 
-p a {
-    text-decoration: none;
-    color: black;
-    font-size: 13px;
-}
 
 button {
     background: #6f23ff;
