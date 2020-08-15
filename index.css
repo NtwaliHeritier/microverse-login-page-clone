@@ -9,10 +9,11 @@ body {
 }
 
 .main{
-    width: 20%;
+    width: 22%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 12%;
+    box-shadow: 15px;
 }
 
 img {
@@ -48,32 +49,30 @@ input {
 }
 
 h3 {
+    font-family: Helvetica;
     font-size: 22px;
     font-weight: lighter;
     padding-top: 10px;
     padding-bottom: 20px;
-    font-family: Helvetica;
 }
 
 p {
     padding: 25px;
-    cursor: pointer;
 }
-
 
 button {
     background: #6f23ff;
     border: none;
     width: 100%;
     color: white;
-    padding: 25px;
+    padding: 35px;
     font-size: 15px;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
 }
 
 button i {
-    margin-left: 2px;
+    margin-left: 10px;
 }
 
 .password, .email {
