@@ -29,3 +29,66 @@ img {
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
 }
+
+form {
+    text-align: center;
+    background-color: white;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.input-control {
+    padding-top: 20px;
+}
+
+input {
+    height: 40px;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+h3 {
+    font-family: Helvetica;
+    font-size: 22px;
+    font-weight: lighter;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+p {
+    padding: 25px;
+}
+
+button {
+    background: #6f23ff;
+    border: none;
+    width: 100%;
+    color: white;
+    padding: 35px;
+    font-size: 15px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+button i {
+    margin-left: 10px;
+}
+
+.password, .email {
+    position: relative;
+}
+
+.fa-lock, .fa-envelope {
+    position: absolute;
+    top: 30px;
+    left: 25px;
+}
+
+.fas, .far {
+    color: lightgray;
+}
+
+.email input, .password input {
+    text-indent: 70px;
+}
