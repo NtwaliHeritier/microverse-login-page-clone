@@ -6,6 +6,7 @@
 
 body {
     background-image: radial-gradient(#283747, #566677,#283747);
+    font-family: Helvetica;
 }
 
 .main{
@@ -49,7 +50,6 @@ input {
 }
 
 h3 {
-    font-family: Helvetica;
     font-size: 22px;
     font-weight: lighter;
     padding-top: 10px;
@@ -60,19 +60,25 @@ p {
     padding: 25px;
 }
 
+p a{
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+}
+
 button {
     background: #6f23ff;
     border: none;
     width: 100%;
     color: white;
-    padding: 35px;
+    padding: 28px;
     font-size: 15px;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
 }
 
 button i {
-    margin-left: 10px;
+    margin-left: 2px;
 }
 
 .password, .email {
