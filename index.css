@@ -6,7 +6,6 @@
 
 body {
     background-image: radial-gradient(#283747, #566677,#283747);
-    font-family: Helvetica;
 }
 
 .main{
@@ -53,6 +52,7 @@ h3 {
     font-weight: lighter;
     padding-top: 10px;
     padding-bottom: 20px;
+    font-family: Helvetica;
 }
 
 p {
