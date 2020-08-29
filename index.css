@@ -9,11 +9,16 @@ body {
     font-family: Helvetica;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    min-height: 100vh;
+}
+
 .main{
     width: 22%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 12%;
     box-shadow: 2px 2px 14px 1px black;
     border: 2px solid black;
     border-radius: 5px;
@@ -99,4 +104,27 @@ button i {
 
 .email input, .password input {
     text-indent: 70px;
+}
+
+
+@media screen and (max-width: 575px){
+    .main {
+        width: 80%;
+    }
+
+    .email input, .password input {
+        text-indent: 32px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .main{
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .main {
+        width: 30%;
+    }
 }
