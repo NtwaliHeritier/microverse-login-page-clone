@@ -15,6 +15,8 @@ body {
     margin-right: auto;
     margin-top: 12%;
     box-shadow: 2px 2px 14px 1px black;
+    border: 2px solid black;
+    border-radius: 5px;
 }
 
 img {
@@ -27,8 +29,8 @@ img {
     text-align: center;
     background-color: #D3D3D3;
     padding-top: 10px;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 }
 
 form {
@@ -73,8 +75,8 @@ button {
     color: white;
     padding: 28px;
     font-size: 15px;
-    border-bottom-left-radius: 7px;
-    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 button i {
