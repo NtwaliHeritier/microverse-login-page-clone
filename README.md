@@ -24,7 +24,7 @@ Additional description about the project and its features.
 
 ## Live Link
 
-- https://raw.githack.com/NtwaliHeritier/microverse-login-page-clone/master/index.html
+- https://microverse-login.netlify.app/
 
 ## Show your support
 
