@@ -108,11 +108,17 @@ button i {
 
 @media screen and (max-width: 575px){
     .main {
-        width: 80%;
+        width: 70%;
     }
 
     .email input, .password input {
         text-indent: 32px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .main{
+        width: 50%;
     }
 }
 
@@ -131,3 +137,4 @@ button i {
         text-indent: 40px;
     }
 }
+
